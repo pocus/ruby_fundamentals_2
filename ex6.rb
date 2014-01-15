@@ -1,5 +1,5 @@
 #David Yip
-groceries = ["bread", "milk", "eggs","light bulbs"]
+groceries = ["bread", "milk", "eggs","light bulbs","rice"]
 
 
 def print_list(groceries)
