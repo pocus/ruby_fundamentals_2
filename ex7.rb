@@ -21,3 +21,12 @@ cohort_size.delete(:cohort2)
 
 puts "\nAfter delete"
 print_cohort(cohort_size)
+
+def cohort_total(cohort_size)
+	total = 0
+	cohort_size.each{ |key, val| total = total + val}
+	total
+end
+
+puts "\nTotal"
+puts cohort_total(cohort_size)
