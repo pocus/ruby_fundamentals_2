@@ -1,3 +1,10 @@
 #David Yip
 groceries = ["bread", "milk", "eggs","light bulbs"]
-groceries.each {|item| puts "* #{item}"}
+
+
+def print_list(groceries)
+	groceries.each {|item| puts "* #{item}"}
+	puts "The list has #{groceries.length} items."
+end
+
+print_list(groceries)
