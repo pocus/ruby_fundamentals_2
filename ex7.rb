@@ -15,3 +15,9 @@ cohort_size.each{ |key, val| cohort_size[key] = val * 1.05}
 
 puts "\nAfter increase"
 print_cohort(cohort_size)
+
+cohort_size.delete(:cohort2)
+
+
+puts "\nAfter delete"
+print_cohort(cohort_size)
