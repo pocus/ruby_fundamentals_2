@@ -15,4 +15,15 @@ else
 	puts "You need bananas today because bananas isn't present in the array."
 end
 
-puts "The second item on your list is #{groceries[1].}"
+puts "The second item on your list is #{groceries[1]}."
+
+groceries.sort!
+
+puts "\nA sorted list follows."
+print_list(groceries)
+
+groceries.delete("light bulbs")
+
+puts "\nRemoved light bulbs."
+
+print_list(groceries)
